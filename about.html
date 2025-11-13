@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- ✅ Top Bar with Scrolling Line -->
+<div class="bg-white-600 text-black text-sm md:text-base font-semibold py-2 overflow-hidden">
+  <marquee behavior="scroll" direction="left" scrollamount="20">
+    🎓 Admission Open Now! Join the Leaders — Where Learning Becomes Success! 🚀
+  </marquee>
+</div>
+<!-- 🌟 MAK Collegiate Navbar -->
+<header class="bg-red-700 text-white shadow-lg sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+
+   <!-- 🔰 Logo + Title -->
+<a href="#" class="flex items-center space-x-3 group">
+  <img src="./images/logo1.jpg" 
+       alt="MAK Collegiate Logo" 
+       class="h-12 w-12 rounded-full object-cover border-2 border-yellow-400 shadow-md transition-transform duration-300 group-hover:scale-110">
+  <div class="leading-tight">
+    <h1 class="font-extrabold text-white text-2xl tracking-wide">MAK Collegiate</h1>
+    <span class="text-[0.7rem] text-yellow-300 font-semibold uppercase tracking-widest">
+      Gold Medalist Institute
+    </span>
+  </div>
+</a>
+
+  <!-- 🌐 Desktop Menu -->
+<nav id="navMenu" class="hidden md:flex space-x-8 font-semibold text-white/90">
+  <a href="#" class="relative group text-yellow-300">
+    Home
+    <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-yellow-300 transition-all duration-300"></span>
+  </a>
+  <a href="#about" class="relative group hover:text-yellow-300 transition">
+    About
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+  <a href="#campuses" class="relative group hover:text-yellow-300 transition">
+    Campuses
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+  <a href="#academics" class="relative group hover:text-yellow-300 transition">
+    Academics
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+  <a href="#admissions" class="bg-yellow-400 text-red-800 px-4 py-1 rounded-full font-bold hover:bg-yellow-300 transition">
+    Admissions
+  </a>
+  <a href="#gallery" class="relative group hover:text-yellow-300 transition">
+    Gallery
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+  <a href="#contact" class="relative group hover:text-yellow-300 transition">
+    Contact
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+</nav>
+
+    <!-- 📱 Mobile Menu Button -->
+    <button id="menuBtn" class="md:hidden text-yellow-300 text-3xl focus:outline-none">☰</button>
+  </div>
+
+  <!-- 📱 Mobile Dropdown -->
+  <div id="mobileMenu" class="hidden bg-red-600 border-t border-yellow-400 md:hidden">
+    <nav class="flex flex-col text-center py-4 space-y-3 font-semibold">
+      <a href="#" class="hover:text-yellow-300">Home</a>
+      <a href="#about" class="hover:text-yellow-300">About</a>
+      <a href="#campuses" class="hover:text-yellow-300">Campuses</a>
+      <a href="#academics" class="hover:text-yellow-300">Academics</a>
+      <a href="#admissions" class="bg-yellow-400 text-red-800 mx-24 py-1 rounded-full font-bold hover:bg-yellow-300">Admissions</a>
+      <a href="#gallery" class="hover:text-yellow-300">Gallery</a>
+      <a href="#contact" class="hover:text-yellow-300">Contact</a>
+    </nav>
+  </div>
+</header>
+</body>
+</html>
