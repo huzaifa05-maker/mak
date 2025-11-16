@@ -9,6 +9,37 @@
   <title>MAK Collegiate | Inspiring Brilliance Across Karachi</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="icon" href="./images/logo.png" type="image/png">
+  <style>
+/* ===== Scrollbar Styling ===== */
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #FDE68A; /* Soft gold background */
+}
+
+/* Scrollbar thumb (draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #B91C1C; /* Dark red matching theme */
+  border-radius: 6px;         /* Rounded edges */
+  border: 3px solid #FDE68A;  /* Space around thumb */
+}
+
+/* Hover effect for thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #EF4444; /* Bright red on hover */
+}
+
+/* Optional: scrollbar corner (where horizontal & vertical meet) */
+::-webkit-scrollbar-corner {
+  background: #FDE68A;
+}
+</style>
+
 </head>
 
 <body class="bg-white text-gray-800">
@@ -145,42 +176,102 @@
 <!-- ✅ Campuses -->
 <section id="campuses" class="py-20 px-6 bg-gradient-to-b from-white to-red-50 text-center relative overflow-hidden">
   <div class="max-w-6xl mx-auto relative z-10">
-    <h3 class="text-4xl font-extrabold text-red-700 mb-10 tracking-tight">Our Campuses Across Karachi</h3>
+    
+    <h3 class="text-4xl font-extrabold text-red-700 mb-10 tracking-tight">
+      Our Campuses Across Karachi
+    </h3>
+
     <p class="text-gray-600 mb-12 max-w-2xl mx-auto">
       MAK Collegiate proudly serves Karachi through its vibrant campuses — each fostering discipline, innovation, and academic excellence.
     </p>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-      
+
       <!-- 🏆 Main Campus -->
-      <div class="bg-white border-2 border-yellow-400 shadow-xl rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition duration-300">
-        <h4 class="font-extrabold text-red-700 text-xl mb-2">🏆 Sakhi Hasan (Main Campus)</h4>
-        <p class="text-gray-600 mb-4">Flagship campus with advanced science & computer labs, expert faculty, and the heart of MAK excellence.</p>
-        <span class="inline-block bg-yellow-400 text-red-800 text-xs font-semibold px-3 py-1 rounded-full">Main Campus</span>
+      <div class="bg-white border-2 border-yellow-400 shadow-xl rounded-2xl p-6 
+                  hover:scale-105 hover:shadow-2xl transition duration-300 
+                  flex flex-col justify-between min-h-[320px]">
+
+        <div>
+          <h4 class="font-extrabold text-red-700 text-xl mb-2">🏆 Sakhi Hasan (Main Campus)</h4>
+          <p class="text-gray-600 mb-4">
+            Flagship campus with advanced science labs, expert faculty, and the heart of MAK excellence.
+          </p>
+          <span class="inline-block bg-yellow-400 text-red-800 text-xs font-semibold px-3 py-1 rounded-full">
+            Main Campus
+          </span>
+        </div>
+
+        <a href="./campuses/sakhi-hasan.html"
+           class="mt-6 inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 
+                  rounded-xl text-sm font-semibold shadow-md transition">
+          View Details →
+        </a>
       </div>
 
       <!-- 🌟 Gulberg -->
-      <div class="bg-white border shadow-md rounded-2xl p-6 hover:scale-105 hover:shadow-lg transition duration-300">
-        <h4 class="font-bold text-red-600 text-lg mb-2">🌟 Gulberg Campus</h4>
-        <p class="text-gray-600">Renowned for high results, energetic student participation, and creative learning spaces.</p>
+      <div class="bg-white border shadow-md rounded-2xl p-6 
+                  hover:scale-105 hover:shadow-lg transition duration-300 
+                  flex flex-col justify-between min-h-[320px]">
+
+        <div>
+          <h4 class="font-bold text-red-600 text-lg mb-2">🌟 Gulberg Campus</h4>
+          <p class="text-gray-600 mb-4">
+            Renowned for high results, energetic participation, and creative learning spaces.
+          </p>
+        </div>
+
+        <a href="./campuses/gulberg.html"
+           class="mt-6 inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 
+                  rounded-xl text-sm font-semibold shadow-md transition">
+          View Details →
+        </a>
       </div>
 
       <!-- 🎯 Nazimabad -->
-      <div class="bg-white border shadow-md rounded-2xl p-6 hover:scale-105 hover:shadow-lg transition duration-300">
-        <h4 class="font-bold text-red-600 text-lg mb-2">🎯 Nazimabad Campus</h4>
-        <p class="text-gray-600">Focused on discipline, counseling, and mentoring for academic and moral growth.</p>
+      <div class="bg-white border shadow-md rounded-2xl p-6 
+                  hover:scale-105 hover:shadow-lg transition duration-300 
+                  flex flex-col justify-between min-h-[320px]">
+
+        <div>
+          <h4 class="font-bold text-red-600 text-lg mb-2">🎯 Nazimabad Campus</h4>
+          <p class="text-gray-600 mb-4">
+            Focused on discipline, counseling, and mentoring for academic and moral growth.
+          </p>
+        </div>
+
+        <a href="./campuses/nazimabad.html"
+           class="mt-6 inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 
+                  rounded-xl text-sm font-semibold shadow-md transition">
+          View Details →
+        </a>
       </div>
 
-      <!-- 🚀 UP Campus -->
-      <div class="bg-white border shadow-md rounded-2xl p-6 hover:scale-105 hover:shadow-lg transition duration-300">
-        <h4 class="font-bold text-red-600 text-lg mb-2">🚀 UP Campus</h4>
-        <p class="text-gray-600">Newest branch featuring smart classrooms and modern teaching technology.</p>
+      <!-- 🚀 UP -->
+      <div class="bg-white border shadow-md rounded-2xl p-6 
+                  hover:scale-105 hover:shadow-lg transition duration-300 
+                  flex flex-col justify-between min-h-[320px]">
+
+        <div>
+          <h4 class="font-bold text-red-600 text-lg mb-2">🚀 UP Campus</h4>
+          <p class="text-gray-600 mb-4">
+            Newest branch featuring smart classrooms and modern teaching technology.
+          </p>
+        </div>
+
+        <a href="./campuses/up.html"
+           class="mt-6 inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 
+                  rounded-xl text-sm font-semibold shadow-md transition">
+          View Details →
+        </a>
       </div>
+
     </div>
   </div>
-<!-- Decorative shapes (behind cards now — fixed) -->
-<div class="absolute -top-10 -left-10 w-60 h-60 bg-red-100 rounded-full blur-3xl opacity-40 -z-10 pointer-events-none"></div>
-<div class="absolute bottom-0 right-0 w-72 h-72 bg-yellow-100 rounded-full blur-3xl opacity-40 -z-10 pointer-events-none"></div>
+
+  <!-- Decorative BG Circles -->
+  <div class="absolute -top-10 -left-10 w-60 h-60 bg-red-100 rounded-full blur-3xl opacity-40 -z-10"></div>
+  <div class="absolute bottom-0 right-0 w-72 h-72 bg-yellow-100 rounded-full blur-3xl opacity-40 -z-10"></div>
 
 </section>
 
