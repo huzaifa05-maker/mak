@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MAK Collegiate – Inspiring Brilliance Across Karachi. Admissions open for Science, Commerce & Computer Science programs." />
+  <meta name="keywords" content="MAK Collegiate, Karachi Colleges, Intermediate Admissions, Commerce College, Science College, Coaching Center" />
+  <meta name="author" content="Huzaifa Khan" />
+  <title>MAK Collegiate | Inspiring Brilliance Across Karachi</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" href="./images/logo.png" type="image/png">
+ <style>
+/* ===== Scrollbar Styling ===== */
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #FDE68A; /* Soft gold background */
+}
+
+/* Scrollbar thumb (draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #B91C1C; /* Dark red matching theme */
+  border-radius: 6px;         /* Rounded edges */
+  border: 3px solid #FDE68A;  /* Space around thumb */
+}
+
+/* Hover effect for thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #EF4444; /* Bright red on hover */
+}
+
+/* Optional: scrollbar corner (where horizontal & vertical meet) */
+::-webkit-scrollbar-corner {
+  background: #FDE68A;
+}
+</style>
+
+</head>
+
+<body class="bg-white text-gray-800">
+
+<!-- ✅ Top Bar with Scrolling Line -->
+<div class="bg-yellow-400 text-red-700 text-sm md:text-base font-bold py-2 overflow-hidden">
+  <marquee behavior="scroll" direction="left" scrollamount="20">
+    🎓 Admission Open Now! Join the Leaders — Where Learning Becomes Success! 🚀
+  </marquee>
+</div>
+
+<!-- 🌟 MAK Collegiate Navbar -->
+<header class="bg-red-700 text-white shadow-lg sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+
+   <!-- 🔰 Logo + Title -->
+<a href="#" class="flex items-center space-x-3 group">
+  <img src="./images/logo1.jpg" 
+       alt="MAK Collegiate Logo" 
+       class="h-12 w-12 rounded-full object-cover border-2 border-yellow-400 shadow-md transition-transform duration-300 group-hover:scale-110">
+  <div class="leading-tight">
+    <h1 class="font-extrabold text-white text-2xl tracking-wide">MAK Collegiate</h1>
+    <span class="text-[0.7rem] text-yellow-300 font-semibold uppercase tracking-widest">
+      Gold Medalist Institute
+    </span>
+  </div>
+</a>
+
+  <!-- 🌐 Desktop Menu -->
+<nav id="navMenu" class="hidden md:flex space-x-8 font-semibold text-white/90">
+  <a href="./index.html" class="relative group hover:text-yellow-300 transition">
+    Home
+    <span class="relative group text-yellow-300"></span>
+  </a>
+  <a href="./about.html" class="relative group hover:text-yellow-300 transition">
+    About
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+  <a href="./campuses.html" class="relative group text-yellow-300">
+    Campuses
+    <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-yellow-300 transition-all duration-300"></span>
+  </a>
+  <a href="./academics.html" class="relative group hover:text-yellow-300 transition">
+    Academics
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+  <a href="#admissions" class="bg-yellow-400 text-red-800 px-4 py-1 rounded-full font-bold hover:bg-yellow-300 transition">
+    Admissions
+  </a>
+  <a href="#gallery" class="relative group hover:text-yellow-300 transition">
+    Gallery
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+  <a href="#contact" class="relative group hover:text-yellow-300 transition">
+    Contact
+    <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
+  </a>
+</nav>
+
+    <!-- 📱 Mobile Menu Button -->
+    <button id="menuBtn" class="md:hidden text-yellow-300 text-3xl focus:outline-none">☰</button>
+  </div>
+
+  <!-- 📱 Mobile Dropdown -->
+  <div id="mobileMenu" class="hidden bg-red-600 border-t border-yellow-400 md:hidden">
+    <nav class="flex flex-col text-center py-4 space-y-3 font-semibold">
+      <a href="#" class="hover:text-yellow-300">Home</a>
+      <a href="#about" class="hover:text-yellow-300">About</a>
+      <a href="#campuses" class="hover:text-yellow-300">Campuses</a>
+      <a href="#academics" class="hover:text-yellow-300">Academics</a>
+      <a href="#admissions" class="bg-yellow-400 text-red-800 mx-24 py-1 rounded-full font-bold hover:bg-yellow-300">Admissions</a>
+      <a href="#gallery" class="hover:text-yellow-300">Gallery</a>
+      <a href="#contact" class="hover:text-yellow-300">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- 🌟 MAIN CAMPUSES PAGE (RED/YELLOW THEME FIXED) -->
+
+<section class="relative py-20 px-6 md:px-16 text-center text-white">
+  <!-- Background Image with subtle dark overlay -->
+  <div class="absolute inset-0">
+    <img src="./images/map.jpg" alt="Campuses Map" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/40"></div> <!-- Dark overlay for readability -->
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-10">
+    <h1 class="text-5xl font-extrabold tracking-wide text-red-600 drop-shadow-lg">
+      Our Campuses Across Karachi
+    </h1>
+    <p class="mt-4 text-yellow-300 text-lg font-bold drop-shadow">
+      MAK Collegiate proudly operates four campuses committed to discipline, excellence, and Islamic values.
+    </p>
+  </div>
+</section>
+<section class="py-16 px-6 md:px-16">
+
+  <h2 class="text-4xl font-extrabold text-center text-red-600 mb-3">
+    📍 Our Campuses in Karachi
+  </h2>
+  <p class="text-center text-yellow-400 mb-10 text-lg font-bold">
+    Click any campus below to explore its exact location on Google Maps.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+
+    <!-- Sakhi Hasan Campus -->
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden border transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+      <img src="./images/building1.png" alt="Sakhi Hasan Campus" class="w-full h-56 object-cover transition-transform duration-500 hover:scale-110">
+      <div class="p-5 text-center">
+        <h3 class="font-bold text-xl text-red-600 mb-3">Sakhi Hasan Campus</h3>
+        <a href="https://maps.app.goo.gl/XLrhapjD7UusYhQU9" target="_blank"
+           class="inline-block mt-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-800 transition transform hover:translate-x-1">
+           🔗 View on Google Maps
+        </a>
+      </div>
+    </div>
+
+    <!-- Gulberg Campus -->
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden border transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+      <img src="./images/building2.png" alt="Gulberg Campus" class="w-full h-56 object-cover transition-transform duration-500 hover:scale-110">
+      <div class="p-5 text-center">
+        <h3 class="font-bold text-xl text-red-600 mb-3">Gulberg Campus</h3>
+        <a href="https://maps.app.goo.gl/qt1Snktx7354ymSw6" target="_blank"
+           class="inline-block mt-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-800 transition transform hover:translate-x-1">
+           🔗 View on Google Maps
+        </a>
+      </div>
+    </div>
+
+    <!-- North Nazimabad Campus -->
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden border transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+      <img src="./images/building3.png" alt="North Nazimabad Campus" class="w-full h-56 object-cover transition-transform duration-500 hover:scale-110">
+      <div class="p-5 text-center">
+        <h3 class="font-bold text-xl text-red-600 mb-3">North Nazimabad Campus</h3>
+        <a href="https://maps.app.goo.gl/7nxiVYLqQSDDw15T9" target="_blank"
+           class="inline-block mt-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-800 transition transform hover:translate-x-1">
+           🔗 View on Google Maps
+        </a>
+      </div>
+    </div>
+
+    <!-- UP Campus -->
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden border transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+      <img src="./images/building4.png" alt="UP Campus" class="w-full h-56 object-cover transition-transform duration-500 hover:scale-110">
+      <div class="p-5 text-center">
+        <h3 class="font-bold text-xl text-red-600 mb-3">UP More Campus</h3>
+        <a href="https://maps.app.goo.gl/UBNYYNQk3widu5BH7" target="_blank"
+           class="inline-block mt-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-800 transition transform hover:translate-x-1">
+           🔗 View on Google Maps
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Campus Cards Section -->
+<section class="py-20 bg-gradient-to-b from-yellow-50 to-white px-6 md:px-16">
+  <h2 class="text-3xl font-bold text-center text-red-700 mb-14">Our Branches</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto">
+
+    <!-- Card -->
+    <div class="bg-white p-5 rounded-2xl shadow-xl border-2 border-red-700 hover:shadow-2xl transition">
+      <img src="https://images.unsplash.com/photo-1596496054471-0722a94a2180?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-40 w-full object-cover border border-red-700">
+      <h3 class="text-xl font-bold text-red-800">UP More Campus</h3>
+      <p class="text-gray-600 text-sm mt-1">Near UP More, North Karachi</p>
+      <button class="mt-4 w-full bg-yellow-400 text-red-800 py-2 rounded-xl font-bold hover:bg-yellow-300 transition">
+        View Campus
+      </button>
+    </div>
+
+    <div class="bg-white p-5 rounded-2xl shadow-xl border-2 border-red-700 hover:shadow-2xl transition">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-40 w-full object-cover border border-red-700">
+      <h3 class="text-xl font-bold text-red-800">Sakhi Hasan Campus</h3>
+      <p class="text-gray-600 text-sm mt-1">Near Sakhi Hasan Roundabout</p>
+      <button class="mt-4 w-full bg-yellow-400 text-red-800 py-2 rounded-xl font-bold hover:bg-yellow-300 transition">
+        View Campus
+      </button>
+    </div>
+
+    <div class="bg-white p-5 rounded-2xl shadow-xl border-2 border-red-700 hover:shadow-2xl transition">
+      <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-40 w-full object-cover border border-red-700">
+      <h3 class="text-xl font-bold text-red-800">North Nazimabad Campus</h3>
+      <p class="text-gray-600 text-sm mt-1">Block H, North Nazimabad</p>
+      <button class="mt-4 w-full bg-yellow-400 text-red-800 py-2 rounded-xl font-bold hover:bg-yellow-300 transition">
+        View Campus
+      </button>
+    </div>
+
+    <div class="bg-white p-5 rounded-2xl shadow-xl border-2 border-red-700 hover:shadow-2xl transition">
+      <img src="https://images.unsplash.com/photo-1599420186946-7b1dbd6e520b?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-40 w-full object-cover border border-red-700">
+      <h3 class="text-xl font-bold text-red-800">Shadman Campus</h3>
+      <p class="text-gray-600 text-sm mt-1">Shadman Town, North Karachi</p>
+      <button class="mt-4 w-full bg-yellow-400 text-red-800 py-2 rounded-xl font-bold hover:bg-yellow-300 transition">
+        View Campus
+      </button>
+    </div>
+  </div>
+</section>
+
+ <!-- ✅ Why Choose MAK -->
+<section class="relative py-20 px-6 bg-gradient-to-b from-red-50 to-white text-center overflow-hidden">
+  <div class="max-w-7xl mx-auto relative z-10">
+    <h3 class="text-4xl font-extrabold text-red-700 mb-4 tracking-tight">Why Choose <span class="text-yellow-500">MAK Collegiate</span></h3>
+    <p class="text-gray-600 mb-12 max-w-2xl mx-auto">
+      We don’t just teach — we inspire, mentor, and prepare students for excellence in every walk of life.
+    </p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      
+      <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-red-600">
+        <div class="text-red-600 text-4xl mb-3">🎓</div>
+        <h4 class="font-bold text-red-700 mb-2 text-lg">Qualified Faculty</h4>
+        <p class="text-gray-600 text-sm">Highly experienced and dedicated teachers committed to academic excellence.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-yellow-500">
+        <div class="text-yellow-500 text-4xl mb-3">🏫</div>
+        <h4 class="font-bold text-red-700 mb-2 text-lg">Modern Facilities</h4>
+        <p class="text-gray-600 text-sm">Smart classrooms, science & computer labs, and digital learning tools.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-green-600">
+        <div class="text-green-600 text-4xl mb-3">💬</div>
+        <h4 class="font-bold text-red-700 mb-2 text-lg">Student Counseling</h4>
+        <p class="text-gray-600 text-sm">Personal mentoring and career guidance to help every student grow confidently.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-blue-600">
+        <div class="text-blue-600 text-4xl mb-3">🏆</div>
+        <h4 class="font-bold text-red-700 mb-2 text-lg">Result Oriented</h4>
+        <p class="text-gray-600 text-sm">Proven track record with board toppers and scholarship achievers every year.</p>
+      </div>
+    </div>
+  </div>
+
+  
+   <!-- Decorative BG Circles -->
+  <div class="absolute -top-10 -left-10 w-60 h-60 sm:w-32 sm:h-32 bg-red-100 rounded-full blur-3xl opacity-40 -z-10 pointer-events-none"></div>
+<div class="absolute bottom-0 right-0 w-72 h-72 sm:w-40 sm:h-40 bg-yellow-100 rounded-full blur-3xl opacity-40 -z-10 pointer-events-none"></div>
+
+
+</section>
+
+
+
+
+<!-- CTA -->
+<section class="relative py-20 px-6 md:px-12 bg-red-700 text-white text-center overflow-hidden">
+  <div class="relative z-10 max-w-3xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Join MAK Collegiate Today!</h2>
+    <p class="mb-8 text-lg text-white/90">
+      Be part of an institution that shapes tomorrow’s leaders through excellence, discipline, and innovation.
+    </p>
+    <a href="#admissions" class="bg-yellow-400 text-red-800 px-8 py-3 font-semibold rounded-full shadow-lg hover:bg-yellow-300 hover:scale-105 transition duration-300">
+      Apply Now →
+    </a>
+  </div>
+
+  <!-- Decorative circles -->
+  <div class="absolute top-0 left-0 w-64 h-64 bg-yellow-300 rounded-full blur-3xl opacity-30 -z-10 pointer-events-none"></div>
+  <div class="absolute bottom-0 right-0 w-72 h-72 bg-white rounded-full blur-3xl opacity-10 -z-10 pointer-events-none"></div>
+</section>
+
+
+<!-- ✅ Footer (Clean & Updated with Logo) -->
+<footer class="bg-gradient-to-b from-red-900 via-red-950 to-black text-white pt-16 pb-8 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10 relative z-10">
+
+    <!-- Logo / Intro -->
+    <div class="flex flex-col">
+      <a href="#" class="flex items-center space-x-3 mb-4 group">
+        <img src="./images/logo1.jpg" 
+             alt="MAK Collegiate Logo" 
+             class="h-12 w-12 rounded-full object-cover border-2 border-yellow-400 shadow-md transition-transform duration-300 group-hover:scale-110">
+        <div class="leading-tight">
+          <h1 class="font-extrabold text-white text-2xl tracking-wide">MAK Collegiate</h1>
+          <span class="text-[0.7rem] text-yellow-300 font-semibold uppercase tracking-widest">
+            Gold Medalist Institute
+          </span>
+        </div>
+      </a>
+      <p class="text-sm text-red-200 leading-relaxed">
+        Inspiring brilliance across Karachi with discipline, innovation, and academic excellence. Join us to experience a transformative learning journey at MAK Collegiate.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h4 class="font-bold text-white mb-3">Quick Links</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#" class="hover:text-yellow-400 transition">🏠 Home</a></li>
+        <li><a href="#about" class="hover:text-yellow-400 transition">ℹ️ About</a></li>
+        <li><a href="#campuses" class="hover:text-yellow-400 transition">🎓 Campuses</a></li>
+        <li><a href="#contact" class="hover:text-yellow-400 transition">📩 Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Programs -->
+    <div>
+      <h4 class="font-bold text-white mb-3">Programs</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#" class="hover:text-yellow-400 transition">🔬 Science</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition">💼 Commerce</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition">💻 Computer Science</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition">📘 Coaching</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h4 class="font-bold text-white mb-3">Contact Us</h4>
+      <p class="text-sm">📍 Karachi, Pakistan</p>
+      <p class="text-sm">📞 +92 300 1234567</p>
+      <p class="text-sm">✉️ info@makcollegiate.edu.pk</p>
+      <div class="flex space-x-3 mt-4 text-lg">
+        <a href="#" class="border border-red-400 rounded-full p-2 hover:bg-yellow-400 hover:text-red-900 transition"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="border border-red-400 rounded-full p-2 hover:bg-yellow-400 hover:text-red-900 transition"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="border border-red-400 rounded-full p-2 hover:bg-yellow-400 hover:text-red-900 transition"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Divider Line -->
+  <div class="border-t border-red-700 mt-10"></div>
+
+  <!-- Copyright -->
+  <div class="text-center text-xs text-red-200 mt-6 relative z-10">
+    © 2025 <span class="text-white font-semibold">MAK Collegiate</span>. All Rights Reserved. <br>
+    <span class="text-red-300">Designed with ❤️ by <span class="text-yellow-400 font-medium">Huzaifa Khan</span></span>
+  </div>
+</footer>
+
+
+<!-- 📜 JS for Mobile Menu Toggle -->
+<script>
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
+
+</body>
+</html>
